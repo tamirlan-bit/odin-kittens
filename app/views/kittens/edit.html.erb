@@ -1,0 +1,30 @@
+<div class="kitten_info">
+  <h1>Edit Kitten</h1>
+
+  <%= form_with model: @kitten do |f| %>
+    <div>
+      <%= f.label :public, "Name:" %>
+      <%= f.text_field :name %>
+    </div>
+    <div>
+      <%= f.label :public, "Age:" %>
+      <%= f.number_field :age %>
+    </div>
+    <div>
+      <%= f.label :public, "Cuteness:" %>
+      <%= f.number_field :cuteness %>
+    </div>
+    <div>
+      <%= f.label :public, "Softness:" %>
+      <%= f.number_field :softness %>
+    </div>
+    <div>
+      <%= f.submit "Update Kitten" %>
+    </div>
+  <% end %>
+
+  <div>
+  <%= link_to "Home", root_path %>
+  <%= link_to "Kitten", kitten_path %>  
+  </div>
+</div>
