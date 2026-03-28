@@ -1,24 +1,7 @@
-# README
+# Kitten CRUD
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Rails CRUD app with kittens (name, age, cuteness, softness).
+Basic styling + quick JSON API test.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![App Screenshot](index.jpg)
+![Console Screenshot](console.jpg)
