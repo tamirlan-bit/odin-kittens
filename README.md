@@ -4,6 +4,6 @@ Simple Rails CRUD app with kittens (name, age, cuteness, softness) + basic styli
 
 ![App Screenshot](index.jpg)
 
-**Quick JSON API test example:**
+**Quick JSON API test example: (406 before `respond_to` → 200 after)**
 
 ![Console Screenshot](console.jpg)
